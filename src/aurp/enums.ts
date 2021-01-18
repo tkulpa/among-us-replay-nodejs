@@ -1,0 +1,18 @@
+export enum BasicDataType {
+  SIGNATURE = 'AURP_SIGNATURE',
+  UINT8 = 'UINT8',
+  UINT16 = 'UINT16',
+  UINT32 = 'UINT32',
+  UINT64 = 'UINT64',
+  BOOL = 'BOOL',
+  FLOAT = 'FLOAT',
+  STRING = 'STRING',
+}
+
+export enum DataType {
+  PLAYER = 'AURP_PLAYER',
+  EVENT = 'AURP_EVENT',
+  FRAME_DATA = 'AURP_FRAME_DATA',
+  PLAYER_STATE = 'AURP_PLAYER_STATE',
+  TASK_STATE = 'AURP_TASK_STATE',
+}
