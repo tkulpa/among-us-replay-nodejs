@@ -1,7 +1,7 @@
 {
   "name": "among-us-replay-nodejs",
   "version": "0.1.1-alpha",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "author": {
     "name": "Tom Kulpa",
@@ -13,9 +13,11 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "dev": "yarn tsc && node dist/index.js replay.aurp",
-    "build": "yarn tsc",
-    "format": "yarn prettier --write ./src"
+    "prepare": "tsc",
+    "dev": "tsc && node dist/index.js replay.aurp",
+    "start": "node ./dist",
+    "build": "tsc",
+    "format": "prettier --write ./src"
   },
   "dependencies": {},
   "devDependencies": {
