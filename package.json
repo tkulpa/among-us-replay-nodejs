@@ -1,5 +1,5 @@
 {
-  "name": "among-us-replay-nodejs",
+  "name": "@tkulpa/among-us-replay-nodejs",
   "version": "0.1.1-alpha",
   "main": "dist/index.js",
   "license": "MIT",
@@ -8,9 +8,9 @@
     "email": "tekulp@gmail.com",
     "url": "https://github.com/tkulpa"
   },
-  "repository": "git://github.com/tkulpa/among-us-replay-nodejs.git",
+  "repository": "github:tkulpa/among-us-replay-nodejs",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "prepare": "tsc",
