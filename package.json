@@ -1,6 +1,6 @@
 {
   "name": "@tkulpa/among-us-replay-nodejs",
-  "version": "0.1.5-alpha",
+  "version": "0.1.6-alpha",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {

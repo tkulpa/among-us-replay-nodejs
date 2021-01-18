@@ -7,9 +7,8 @@ const readFileAsync = util.promisify(fs.readFile);
 const AURP_FILE_SIGNATURE = 'AURP';
 const COMPATIBLE_AURP_VERSION = 3;
 
-const myArgs = process.argv.slice(2);
-
-async function main(aurpReplayPath?) {
+async function main(aurpReplayPath?: string) {
+  const myArgs = process.argv.slice(2);
   const data = await readFileAsync(aurpReplayPath || myArgs[0]);
   const fistFourBytesAsString = data.toString('binary', 0, 4);
   if (fistFourBytesAsString !== AURP_FILE_SIGNATURE) {
@@ -28,4 +27,4 @@ async function main(aurpReplayPath?) {
   return readAurpFile(data);
 }
 
-export default main;
+module.exports = main;
