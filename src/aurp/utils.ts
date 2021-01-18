@@ -143,11 +143,11 @@ export function readEvent(buffer: Buffer, offset: number): [any, number] {
     offset += size;
   }
 
-  data['playerStates'] = [];
+  data['player_states'] = [];
   for (let i = 0; i < data.state_count || 0; i++) {
     const [playerState, playerStateSize] = readPlayerState(buffer, offset);
     offset += playerStateSize;
-    data['playerStates'].push(playerState);
+    data['player_states'].push(playerState);
   }
 
   return [data, offset - initOffset];
