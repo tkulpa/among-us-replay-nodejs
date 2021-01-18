@@ -10,8 +10,8 @@ export const AURP_FORMAT = {
   game_version: BasicDataType.STRING,
   map_id: BasicDataType.UINT32,
   player_count: BasicDataType.UINT32,
-  players: DataType.PLAYER,
-  events: DataType.EVENT,
+  // players: DataType.PLAYER,
+  // events: DataType.EVENT,
 };
 
 export const PLAYER = {
@@ -27,13 +27,13 @@ export const PLAYER = {
 export const EVENT = {
   type: BasicDataType.UINT8,
   dt: BasicDataType.UINT32,
-  event_data: DataType.FRAME_DATA,
+  // event_data: DataType.FRAME_DATA,
 };
 
 export const FRAME_DATA = {
   is_complete: BasicDataType.BOOL,
   state_count: BasicDataType.UINT8,
-  player_states: DataType.PLAYER_STATE,
+  // player_states: DataType.PLAYER_STATE,
 };
 
 export const PLAYER_STATE = {
@@ -45,7 +45,7 @@ export const PLAYER_STATE = {
   is_dead: BasicDataType.BOOL,
   is_disconnected: BasicDataType.BOOL,
   task_count: BasicDataType.UINT8,
-  tasks: DataType.TASK_STATE,
+  // tasks: DataType.TASK_STATE,
 };
 
 export const TASK_STATE = {
