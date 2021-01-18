@@ -1,12 +1,16 @@
 {
   "name": "among-us-replay-nodejs",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "main": "src/index.js",
   "license": "MIT",
   "author": {
     "name": "Tom Kulpa",
     "email": "tekulp@gmail.com",
     "url": "https://github.com/tkulpa"
+  },
+  "repository": "git://github.com/tkulpa/among-us-replay-nodejs.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "yarn tsc && node dist/index.js replay.aurp",
