@@ -77,5 +77,5 @@ _Example implementation inside `example` folder_
 ### Mira HQ All Players pathing across whole game
 
 All Players pathing across whole game
-![mira hq replay](/example/output/mira_Hq.png 'Mira HQ Replay')
+![mira hq replay](/example/output/mira_hq.png 'Mira HQ Replay')
 _Example implementation inside `example` folder_
