@@ -4,7 +4,7 @@
 
 # Among Us Replay - NodeJS Parser (Alpha)
 
-This package allows parsing `.aurp` replays saved with [this mod](https://raw.githubusercontent.com/Smertig/among-us-replay-mod) inside NodeJS environment.
+This package allows parsing `.aurp` replays saved with [this mod](https://github.com/Smertig/among-us-replay-mod) inside NodeJS environment.
 
 # Installation
 
